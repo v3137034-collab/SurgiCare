@@ -133,52 +133,6 @@ SurgiCare/
 
 Note: The exact folder and file names may vary slightly depending on the version of the project.
 
-⚙️ Installation and Setup
-
-Prerequisites
-
-Install the following tools before running the project:
-
-Node.js — use a supported LTS version.
-
-npm — included with Node.js.
-
-Git.
-
-Visual Studio Code or another code editor.
-
-Step 1: Clone the Repository
-
-Replace YOUR-USERNAME with your GitHub username and YOUR-REPOSITORY with your repository name.
-
-git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
-
-Step 2: Open the Project Folder
-
-cd YOUR-REPOSITORY
-
-Step 3: Install Dependencies
-
-npm install
-
-Step 4: Start the Development Server
-
-npm run dev
-
-Open the local URL displayed in the terminal, usually:
-
-http://localhost:5173
-
-Step 5: Create a Production Build
-
-npm run build
-
-Vite generates the production-ready files in the dist/ directory.
-
-To preview the production build locally, run:
-
-npm run preview
-
 🔐 Demo Login
 
 The current prototype uses a demonstration login flow.
@@ -262,28 +216,6 @@ Responsive layout behavior.
 
 Backend, database, security, and end-to-end testing will be added as those components are implemented.
 
-🤝 Contributing
-
-Contributions are welcome!
-
-Fork the repository or obtain access from the repository owner.
-
-Create a feature branch.
-
-Implement and test your changes.
-
-Commit and push your changes.
-
-Open a Pull Request for review.
-
-Example:
-
-git checkout -b feature/your-feature
-git add .
-git commit -m "Add your feature"
-git push -u origin feature/your-feature
-
-Please discuss major changes with the project owner before beginning work.
 
 🔒 Security and Privacy
 
@@ -307,8 +239,4 @@ Project Name: SurgiCare
 Project Type: Web Application
 Domain: Healthcare Technology / E-Commerce
 Current Stage: Frontend Prototype
-Repository: [Add your GitHub repository URL here]
 
-⭐ If you find this project useful, consider giving the repository a star.
-
-Built as a learning project to explore modern web development and healthcare-related application workflows.
